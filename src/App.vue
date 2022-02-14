@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <MainLayout/>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainLayout from './components/layouts/MainLayout.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    MainLayout
+}
 }
 </script>
 
@@ -21,6 +21,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 60px, 0, 0, 0;
 }
 </style>
