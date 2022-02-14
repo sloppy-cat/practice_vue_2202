@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## project item
+
+open api 사용하는 toy toy vue project(모바일용 웹 지향)
